@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O' Truth Saloon | Men's Grooming</title>
+    <meta name="description" content="Discover modern men's grooming, haircuts and beard styling at O' Truth Saloon.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#" class="logo">O' TRUTH<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#booking" class="nav-btn">Book Now</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">MEN'S GROOMING & STYLE</p>
+
+            <h1>YOUR STYLE.<br>
+                YOUR <span>IDENTITY.</span>
+            </h1>
+
+            <p class="hero-text">
+                Look sharp. Feel confident.
+                Experience modern grooming at O' Truth Saloon.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#booking" class="primary-btn">
+                    Book Appointment
+                </a>
+                <a href="#services" class="secondary-btn">
+                    Explore Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+        <div class="section-heading">
+            <p class="tagline">ABOUT OUR SALON</p>
+            <h2>Grooming That Defines You.</h2>
+        </div>
+
+        <p class="about-text">
+            Welcome to O' Truth Saloon, your destination for
+            modern men's grooming. We aim to combine personal
+            style, professional service and a comfortable
+            salon experience.
+        </p>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services section" id="services">
+        <div class="section-heading">
+            <p class="tagline">WHAT WE OFFER</p>
+            <h2>Our Services</h2>
+        </div>
+
+        <div class="service-grid">
+            <article class="service-card">
+                <div class="service-icon">✂</div>
+                <h3>Haircut</h3>
+                <p>Fresh cuts and modern hairstyles.</p>
+                <span>Price: To be confirmed</span>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">◈</div>
+                <h3>Beard Styling</h3>
+                <p>Professional beard trimming and shaping.</p>
+                <span>Price: To be confirmed</span>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">✧</div>
+                <h3>Hair Styling</h3>
+                <p>Get a polished look for every occasion.</p>
+                <span>Price: To be confirmed</span>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">◇</div>
+                <h3>Facial & Grooming</h3>
+                <p>Refresh your look with grooming services.</p>
+                <span>Price: To be confirmed</span>
+            </article>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="gallery section" id="gallery">
+        <div class="section-heading">
+            <p class="tagline">OUR WORK</p>
+            <h2>Style Gallery</h2>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item gallery-one"></div>
+            <div class="gallery-item gallery-two"></div>
+            <div class="gallery-item gallery-three"></div>
+        </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section class="booking section" id="booking">
+        <div class="section-heading">
+            <p class="tagline">YOUR NEXT LOOK STARTS HERE</p>
+            <h2>Book Your Appointment</h2>
+        </div>
+
+        <form id="bookingForm">
+            <input type="text" id="customerName"
+                   placeholder="Your Name" required>
+
+            <input type="tel" id="customerPhone"
+                   placeholder="Phone Number" required>
+
+            <select id="service" required>
+                <option value="">Select a Service</option>
+                <option>Haircut</option>
+                <option>Beard Styling</option>
+                <option>Hair Styling</option>
+                <option>Facial & Grooming</option>
+            </select>
+
+            <input type="date" id="bookingDate" required>
+
+            <button type="submit" class="primary-btn">
+                Submit Demo Booking
+            </button>
+
+            <p id="bookingMessage" role="status"></p>
+        </form>
+        <p class="demo-note">
+            Demo only: bookings are not sent to the salon yet.
+        </p>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact section" id="contact">
+        <div class="section-heading">
+            <p class="tagline">GET IN TOUCH</p>
+            <h2>Visit O' Truth Saloon</h2>
+        </div>
+
+        <p>Address: Add actual salon address</p>
+        <p>Phone: Add salon contact number</p>
+        <p>Opening Hours: Confirm with salon owner</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h2>O' TRUTH<span>.</span></h2>
+        <p>Modern Grooming. Timeless Confidence.</p>
+        <p>© 2026 O' Truth Saloon. Demo Website.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
